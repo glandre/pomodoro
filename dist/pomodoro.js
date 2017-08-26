@@ -29,6 +29,7 @@ function logSeconds(str, miliseconds) {
 }
 
 function notifySend(str) {
+  console.log('POMODORO: ' + str);
   (0, _child_process.exec)('notify-send "POMODORO: ' + str + '"', function (error, stdout, stderror) {
     if (error) {
       console.log('error: ', error);
