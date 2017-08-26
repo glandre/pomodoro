@@ -1,6 +1,6 @@
 import { exec } from 'child_process'
-// const MINUTES = 60 * 1000
-const MINUTES = 1 * 1000
+
+const MINUTES = 60 * 1000
 
 const WORK_CYCLE = 25 * MINUTES
 const BREAK_CYCLE = 5 * MINUTES

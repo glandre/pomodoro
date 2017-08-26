@@ -6,8 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _child_process = require('child_process');
 
-// const MINUTES = 60 * 1000
-var MINUTES = 1 * 1000;
+var MINUTES = 60 * 1000;
 
 var WORK_CYCLE = 25 * MINUTES;
 var BREAK_CYCLE = 5 * MINUTES;
